@@ -6,9 +6,8 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
+
 
 <h2>Environments and Technologies Used</h2>
 
@@ -41,17 +40,25 @@ I started by logging into osTicket and then making my way to the Admin Panel -> 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/EfYdoAL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After I was done configuring with departments I clicked on Teams and added a new team under the name of Online Banking. Moreover, I clicked on settings as I remained on the admin panel, then clicked on user and unchecked Registration Required:	Require registration and login to create tickets. After I was still on the admin panel, I clicked on agents and then added new agents, Jane (Dept: SysAdmins) and John (Dept: Support) who were the workers. Lastly, I added two users who were acting as the customers Karen and Ken under the agent panel.
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/w9gQfC1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+I moved on to configuring the SLA, so I clicked on Admin Panel -> Manage -> SLA. I added three new SLAs, 
+Sev-A (Grace Period: 1 hour, Schedule: 24/7),
+Sev-B (Grace Period: 4 hours, Schedule: 24/7),
+Sev-C (Grace Period: 8 hours, Business Hours),
+then after I made my way into help topics, and added five of them.
+Business Critical Outage, Personal Computer Issues, Equipment Requests, Password Reset, and Other.
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
